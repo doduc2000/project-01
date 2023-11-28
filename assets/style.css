@@ -10,6 +10,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -470,6 +471,7 @@ input, button, textarea, select{
 .member__items{
     text-align: center;
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .member__items:hover{
@@ -635,6 +637,7 @@ input, button, textarea, select{
     width: 270px;
     border-radius: 12px;
     background-color: #FFF;
+    overflow: hidden;
 }
 
 .new__items:hover{
@@ -768,6 +771,11 @@ input, button, textarea, select{
     white-space: nowrap;
     padding-top: 10px;
     line-height: 1.6;
+}
+
+.footer__items:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .footer__social{
